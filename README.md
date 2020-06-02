@@ -1,6 +1,6 @@
 # RESTful-CRUD-API
 A CRUD API using NodeJS, ExpressJS, MongoDB and Mongoose.
-
+<pre>
 Installation:
 
 1.Go to the project's root directory cd /path/to/directory.  
@@ -14,13 +14,14 @@ GET /people
 GET /people/:id
 
 POST /people  
-	Request body (raw)   
-	{  
-		"name":"",  
-		"interests":"",  
-		"age":""  
-	}  
+Request body (raw)   
+{  
+  	"name":"",  
+	"interests":"",  
+	"age":""  
+}  
 
 PATCH /people/:id  
     
 DELETE /people/:id
+</pre>
